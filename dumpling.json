@@ -1,0 +1,24 @@
+{
+	"response": [
+		{
+			"maintainer": "Pranav Vashi (neobuddy89)",
+			"oem": "OnePlus",
+			"device": "OnePlus 5T",
+			"filename": "crDroidAndroid-11.0-20210509-dumpling-v7.6.zip",
+			"download": "https://sourceforge.net/projects/crdroid/files/dumpling/7.x/crDroidAndroid-11.0-20210509-dumpling-v7.6.zip/download",
+			"timestamp": 1620530506,
+			"md5": "7c3b05d1dde1dd2a6b9d40fddcab54c9",
+			"size": 896867798,
+			"version": "7.6",
+			"buildtype": "Monthly",
+			"forum": "https://forum.xda-developers.com/oneplus-5t/development/rom-crdroid-android-7-t4171489",
+			"gapps": "https://sourceforge.net/projects/flamegapps/files/arm64/android-11/",
+			"firmware": "https://sourceforge.net/projects/crdroid/files/dumpling/6.x/firmware/firmware_10.0.1_oneplus5T.zip/download",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "https://orangefox.download/device/dumpling",
+			"paypal": "https://paypal.me/neobuddy89",
+			"telegram": "https://t.me/crDroid_OnePlus5_5T"
+		}
+	]
+}

@@ -1,0 +1,67 @@
+==================================
+
+DEC 06,2020
+
+==================================
++ Initial Build
+
+=========================
+
+JAN 03 , 2021
+
+=========================
+
+
++ Kernel Upstreamed to V4.4.249
++ mm: speed up mremap by 20x on large regions
++ gcc-sdm660: overclock I2C and SPI to 800mhz
++ net: wireguard: update wireguard to version v1.0.20201221
++ Merge tag 'LA.UM.9.2.r1-01800-SDMxx0.0'
++ mdss: mdp: Default to 258 kcal saturation
++ sdm660-common: Decommonize sensor blob
++ sdm660-common: props: enable vsync and disable backpressure
++ sdm660-common: Update WFD and Time services from LA.UM.9.6.2.r1-02500-89xx.0 (WFD still in WIP)
++ sdm660-common: Update perfd from taimen RP1A.201005.004
++ Refactor Apex
++ Added Xiaomi Parts
++ Fixed Night Light
++ TWRP 3.4.0_10 added as prebuilt
++ Enforcing Selinux
+
+=========================
+
+FEB 23 , 2021
+
+=========================
+
++ Bump to V7.3
++ Feb 2021 Patch
++ Kernel Upstream to 4.4.257
++ net: wireguard: update wireguard to version v1.0.20210219
++ Merge tag 'LA.UM.9.2.r1-02000-SDMxx0.0'
++ add DTS Eagle audio support
++ drivers: misc: qcom: qdsp6v2: Allow 320K AAC encoding
++ sdm660-common: Remove unnecessary media extension packages
++ sdm660-common: Remove unnecessary netutils packages
++ sdm660-common: Remove unused libextmedia_jni
++ sdm660-common: Drop non-functional soundtrigger
++ sdm660-common: import Hotword Enrollment blobs
++ sdm660-common: audio:Add hotword input for hotword mic concurrency
++ sdm660-common: audio: Add fast input profile for the record concurrency
++ sdm660-common: Add required GPU props
++ sdm660-common: Add 2 instance support for record_24
++ sdm660-common: Enable fluence voice recording
+
+=========================
+
+MAR 12 , 2021
+
+=========================
+
++ Bump to V7.4
++ Mar 2021 Patch
++ Based on New Trees,Kernel and Vendor
++ Kernel Upstream to 4.4.261
++ Merge tag 'LA.UM.8.2.c25-01600-sdm660.0
+** NOTE ONLY CLEAN FLASH ALLOWED **
+** TWRP is removed from this build **

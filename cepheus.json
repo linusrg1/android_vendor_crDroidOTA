@@ -1,0 +1,24 @@
+{
+  "response": [
+    {
+        "maintainer": "raystef66",
+        "oem": "Xiaomi",
+        "device": "Xiaomi MI9",
+        "filename": "crDroidAndroid-11.0-20210509-cepheus-v7.6.zip",
+        "download": "https://sourceforge.net/projects/crdroid/files/cepheus/7.x/crDroidAndroid-11.0-20210509-cepheus-v7.6.zip/download",
+        "timestamp": 1620574077,
+        "md5": "d7c1e91fdba2f2ad39faf3f112f39145",
+        "size": 1233873367,
+        "version": "7.6",
+        "buildtype": "Monthly",
+        "forum": "https://forum.xda-developers.com/Mi-9/development/rom-crdroid-v7-0-t4193489/post83975323#post83975323",
+        "gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-R/22-Nov-2020/",
+        "firmware": "https://bigota.d.miui.com/V12.0.4.0.QFAEUXM/cepheus_eea_global_images_V12.0.4.0.QFAEUXM_20210115.0000.00_10.0_eea_d4e6a4fade.tgz",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "https://forum.xda-developers.com/Mi-9/development/recovery-unofficial-twrp-xiaomi-mi-9-t3905825",
+        "paypal": "https://paypal.me/raystef66",
+        "telegram": "https://t.me/crdroidmi9"
+    }
+  ]
+}

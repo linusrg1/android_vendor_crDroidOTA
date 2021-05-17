@@ -1,0 +1,23 @@
+{
+        "response": [
+                {
+                        "maintainer": "Linus Guglielmo",
+                        "oem": "Samsung",
+                        "device": "Galaxy S9",
+                        "filename": "crDroidAndroid-11.0-20210517-starlte-v7.6.zip",
+                        "download": "https://sourceforge.net/projects/crdroid/files/starlte/7.x/crDroidAndroid-11.0-20210517-starlte-v7.6.zip/download",
+                        "timestamp": 1610884026,
+                        "md5": "42196a5a00d347b97d6c5e1a537c5ca9",
+                        "size": 661373882,
+                        "version": "7.6",
+                        "buildtype": "weekly",
+                        "forum": "https://forum.xda-developers.com/t/rom-android-11-crdroid-android-v7-1-for-s9-official-weekly-exynos.4209683/",
+                        "firmware": "https://github.com/corsicanu/9810-bootloaders_and_modems/releases",
+                        "modem": "",
+                        "bootloader": "",
+                        "recovery": "",
+                        "paypal": "https://paypal.me/garett09",
+                        "telegram": "https://t.me/crdroid7s9n9"
+                }
+        ]
+}

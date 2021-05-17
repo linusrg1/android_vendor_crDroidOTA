@@ -1,0 +1,36 @@
+
+====================
+     04-06-2021
+====================
+
+   * lineage-sdk
+5f3ded7d Introduce anti flicker mode in LiveDisplay
+
+====================
+     04-05-2021
+====================
+
+   * hardware/qcom-caf/sm8150/audio
+93c1797e4 Merge tag 'LA.UM.9.1.r1-09200-SMxxx0.0' into 11.0-caf-sm8150
+
+   * hardware/qcom-caf/sm8150/media
+da9f8209 Merge tag 'LA.UM.9.1.r1-09200-SMxxx0.0' into 11.0-caf-sm8150
+
+   * vendor/lineage
+c215f727 Enable IPV4V6 for APN Yesss
+54ebd298 apns: Add Belong
+478ec932 apns: Fix giffgaff
+
+====================
+     04-04-2021
+====================
+
+   * frameworks/base
+2269a328e8f SystemUI: global actions: fix icon position on multi-line action
+
+   * packages/apps/Launcher3
+cbffcbd60 New Crowdin updates (#139)
+
+   * packages/apps/crDroidSettings
+d6889571 New Crowdin updates (#737)
+

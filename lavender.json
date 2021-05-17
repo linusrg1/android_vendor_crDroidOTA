@@ -1,0 +1,24 @@
+{
+        "response": [
+                {
+                        "maintainer": "Yan (Yacha)",
+                        "oem": "Redmi",
+                        "device": "Redmi Note 7",
+                        "filename": "crDroidAndroid-11.0-20210509-lavender-v7.6.zip",
+                        "download": "https://sourceforge.net/projects/crdroid/files/lavender/7.x/crDroidAndroid-11.0-20210509-lavender-v7.6.zip/download",
+                        "timestamp": 1620547337,
+                        "md5": "9215c79205cc9bd21d2ff01a52f7d880",
+                        "size": 915522099,
+                        "version": "7.6",
+                        "buildtype": "Beta",
+                        "forum": "https://forum.xda-developers.com/t/crdroid-android-v7-4-11-0-4-19-beta.4250877/",
+                        "gapps": "https://nikgapps.com/",
+                        "firmware": "",
+                        "modem": "",
+                        "bootloader": "",
+                        "recovery": "https://orangefox.download/device/lavender",
+                        "paypal": "",
+                        "telegram": "https://t.me/joinchat/lHFD-VvL4aUzYWMy"
+                }
+        ]
+}

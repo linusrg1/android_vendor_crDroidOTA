@@ -1,0 +1,24 @@
+{
+	"response": [
+		{
+			"maintainer": "Nick van Bokhorst (GtrCraft)",
+			"oem": "Poco",
+			"device": "POCO X3 (NFC)",
+			"filename": "crDroidAndroid-11.0-20210509-surya-v7.6.zip",
+			"download": "https://sourceforge.net/projects/crdroid/files/surya/7.x/crDroidAndroid-11.0-20210509-surya-v7.6.zip/download",
+			"timestamp": 1620552403,
+			"md5": "a3eb0f8fc720b2e4e5fb7927e8dcb99c",
+			"size": 1062267755,
+			"version": "7.6",
+			"buildtype": "Weekly",
+			"forum": "https://forum.xda-developers.com/t/rom-android-11-surya-crdroid-v7-0-official-05-12-2020.4198947/",
+			"gapps": "https://forum.xda-developers.com/t/gapps-arm64-flamegapps-for-android-9-0-10-0-11-0.4020917/",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "https://paypal.me/NvanBokhorst",
+			"telegram": "https://t.me/crdroidsurya"
+		}
+	]
+}

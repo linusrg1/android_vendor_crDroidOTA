@@ -1,0 +1,285 @@
+====================
+     05-01-2021
+====================
+
+   * build/make
+a957ba59b Merge pull request #29 from GtrCraft/11.0
+
+   * device/oneplus/enchilada
+cf2aae4 enchilada: Add device/oneplus/common to Soong namespace
+
+   * device/oneplus/sdm845-common
+a472b150 sdm845-common: livedisplay: Remove lineage-sdk Sunlight Enhancement
+34ca18cb sdm845-common: DeviceSettings: Implement DeviceSettings
+9ee42fab sdm845-common: Force disable updatable apexes when override flag is set
+15278157 sdm845-common: Create README.md for rebased branch
+1907bf32 sdm845-common: sepolicy: Address some denials
+
+   * kernel/oneplus/sdm845
+097a60aa6118 sdm845: net: Import wireguard v1.0.20210424
+80eefaf154cb sdm845: defconfig: Enable wireguard
+75d05017d3d1 Merge tag 'LA.UM.9.3.r1-01700-sdm845.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into HEAD
+9a6703b2be4f Merge tag 'LA.UM.9.3.r1-01700-sdm845.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn into HEAD
+a519d7784990 Merge tag 'LA.UM.9.3.r1-01700-sdm845.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/fw-api into HEAD
+b1de12bfbd0e Merge tag 'LA.UM.9.3.r1-01700-sdm845.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.9 into HEAD
+2f89f4907c22 sdm845: Create README.md for rebased branch
+
+   * packages/apps/Jelly
+16e5ac7 Jelly: Add support for viewable content:// scheme
+47ad959 Jelly: Start using OpenMultipleDocuments for FileShower
+
+   * packages/apps/Launcher3
+f74a1c4b4 Merge pull request #143 from DarkJoker360/11.0
+30ed0bb8c Launcher3: Fix duplicate attributes
+
+   * vendor/lineage
+9feaf814 vendor: apns: Add Ting
+
+====================
+     04-30-2021
+====================
+
+   * device/oneplus/sdm845-common
+6a25b082 sdm845-common: overlay: Enable Smart Charging
+4390c91a sdm845-common: Fix superfluous LOS pocketmode switch
+8d26d92c sdm845-common: Include prebuilt Google Camera package
+e6cdd9bd sdm845-common: livedisplay: Add Anti Flicker support
+de8eece1 sdm845-common: livedisplay: Uprev to 2.1
+
+   * frameworks/base
+88027b819ed4 New translations (#650)
+
+   * packages/apps/crDroidSettings
+e8fd71c9 New Crowdin updates (#751)
+
+   * vendor/addons/onepluscamera
+2d6d0c8 onepluscamera: Remove oneplus-framework-res
+
+====================
+     04-29-2021
+====================
+
+   * art
+2d274fc6be Fix inliner instruction/register limits
+
+   * device/oneplus/enchilada
+04ea06d enchilada: Update build props for SafetyNet
+7a78c48 enchilada: overlay: Set default hotspot ssid
+925e85a enchilada: Move kernel_defconfig to common
+cc2a364 enchilada: Draw screen corners for anti-aliasing
+ed71c83 enchilada: overlay: NoCutoutOverlay: Increase max notification count
+2e1257c enchilada: Remove OnePlus pocketmode
+
+   * device/oneplus/fajita
+b559dae fajita: Update build fingerprint Fix Product Build Prop Overrides and Build Fingerprint to known-good 6T fingerprint value that should pass SafetyNet, pulled from digeridoohan's MagiskHidePropsConfig magisk module.
+f6f92e0 fajita: Move kernel_defconfig to common
+72f3b6d fajita: added FOD settings
+59847f6 Fajita: Enable FOD
+2219119 Fajita: FOD animations
+bd7404b fajita: overlay: Set default hotspot ssid
+
+   * device/oneplus/sdm845-common
+8eeb77e4 sdm845-common: overlay: Add Tri-state UI overlays
+ba31f6d7 sdm845-common: overlay: Enable burn-in protection
+6fc7750a sdm845-common: overlay: Enable smart pixels support
+1b74307b sdm845-common: Remove OnePlus Doze package
+cb88affa sdm845-common: Remove OnePlus pocketmode
+02a0b241 sdm845-common: Switch to LLVM tools for kernel build * Required for building kernel with RELR relocations,    as binutils doesn't support this and throws errors like:
+28422f6a sdm845-common: Enable clang 12 kernel compile
+e4eb888e sdm845-common: Move kernel_defconfig to common
+
+   * frameworks/base
+b640d2fd7df6 fix INTERNET enforcement for secondary users
+
+   * kernel/oneplus/sdm845
+0cb28c50f091 [PORT] power: Add power supply property to force recharge
+59000bec65fd power: smb2: expose and fix more properties
+474da5d15d8c [PORT] power: qpnp-smb5: Add FORCE_RECHARGE power-supply property
+28096feab6a2 power: Silence additional charging loggers
+60707b01ecf3 power: Silence egregious charging loggers
+5cfba9b54916 power: supply: qcom: bq27541: don't queue battery resume on specific CPU
+2ebb65e1143e [PORT] Optimize battery charging
+b0f1dae8a6ba [PORT] Add interface for optimize battery charging
+cd0cb63419b3 lib/string.c: implement stpcpy
+f738d3adaf93 drm: msm: Update DC Dimming related code from Q OOS release
+3c018a1116dd leds-qpnp-haptics: add separate node for call vibration
+addf530310d8 leds-qpnp-haptics: add separate nodes for tap and notifications
+1addb2a9763a leds-qpnp-haptics: allow user adjustment
+
+====================
+     04-28-2021
+====================
+
+   * device/oneplus/fajita
+802562c fajita: Align with extraction-utils templates
+d9f185f fajita: Remove libhwbinder/libhidltransport deps
+
+   * device/oneplus/sdm845-common
+4bc167cf sdm845-common: manifest: Remove Trust interface entry
+23c1efb9 sdm845-common: Drop dummy libplatformconfig
+de5ce2ec sdm845-common: Stub out libcvface_api.so
+d0723a95 sdm845-common: sepolicy: Allow vendor_init to check encryption status of system_data_file
+98e7f3c8 sdm845-common: Include VNDK 29 prebuilts
+1eeb0b6f sdm845-common: Replace BOARD_CHARGER_DISABLE_INIT_BLANK with ro.charger.disable_init_blank
+2fa620b4 sdm845-common: Set BPF support level
+da6e698b sdm845-common: Add fingerprint configuration to overlay
+5aba0f48 sdm845-common: Add WifiOverlay
+0d7a95c3 sdm845-common: overlay: Remove wifi related internal overlays
+12bc2ef9 sdm845-common: overlay: Add translatable="false" tags to ims package overlays
+a37b609b sdm845-common: overlay: Remove old configuration and use new config for MMTEL/RCS
+48c04410 sdm845-common: overlay: Update pinner list for new SystemUI location
+d5354aa2 sdm845-common: overlay: Update in pinned files.
+c8d676ef sdm845-common: Align resource ids used in NxpNfcNci.apk with framework.jar
+0d97f091 sdm845-common: Patch ApduServiceInfo class init in com.nxp.nfc.jar
+97525bea sdm845-common: Manually patch out libmetricslogger.so dependency
+8a85ee7c sdm845-common: Use libcutils-v29.so for libdpmframework.so
+16dc21e8 sdm845-common: Update blobs from OOS 10.3.10
+cdc1a134 sdm845-common: RIP qti-telephony-common
+7e65fdbb sdm845-common: Relocate aptX blobs to system_ext
+9142bd7a sdm845-common: Switch to standalone extract utils
+d3714aaf sm8150-common: Add local OpFeatures implementation
+
+   * frameworks/base
+b8f98942bae6 Add notification guts priority button background opacity
+6ee31ac340e9 Add toggle to disable charging animation [1/2]
+62ecee884236 Do not show charging animation when disconnecting
+67decf26794f base: Use wireless charging animation for wired charging too
+9ec2c5e9abda Fix notification guts and header opacity
+
+   * kernel/oneplus/sdm845
+ec7f1455bd1e Merge tag 'LA.UM.9.3.r1-01600-sdm845.0' of https://portland.source.codeaurora.org/quic/la/platform/vendor/opensource/audio-kernel into HEAD
+c0709af4ae2b Merge tag 'LA.UM.9.3.r1-01600-sdm845.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into HEAD
+8cc580a37def Merge tag 'LA.UM.9.3.r1-01600-sdm845.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn into HEAD
+d50fc9f2e6ed Merge tag 'LA.UM.9.3.r1-01600-sdm845.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/fw-api into HEAD
+a3ab4f79363e Merge tag 'LA.UM.9.3.r1-01600-sdm845.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.9 into HEAD
+
+   * packages/apps/Settings
+cbe81eaa1f Merge pull request #100 from mukesh22584/11.0
+ca8a8f2221 Settings: Add preference for maximum screen refresh rate
+ee53de5fe2 Settings: Allow devices to provide their own color mode strings
+
+   * packages/apps/crDroidSettings
+ef127206 Add toggle to disable charging animation [2/2]
+
+   * vendor/lineage
+df7a2533 Revert "config: Set UM 4.4 family as QSSI supported platform"
+
+   * vendor/oneplus
+12c48809 sdm845-common: Align resource ids used in NxpNfcNci.apk with framework.jar
+96d3b885 sdm845-common: Patch ApduServiceInfo class init in com.nxp.nfc.jar
+45e8db8d sdm845-common: Manually patch out libmetricslogger.so dependency
+cf24b025 sdm845-common: Use libcutils-v29.so for libdpmframework.so
+43cb1a77 sdm845-common: Extract from OnePlus6Oxygen_22.J.53_OTA_053_all_2104202241_ecefb
+
+====================
+     04-27-2021
+====================
+
+   * frameworks/base
+18a84d3e26c5 Fix up notification opacity with animation
+4ac4546425e5 New Crowdin updates (#646)
+9d3e7ee3e251 Fix up alpha scale for notification image view
+
+   * packages/apps/crDroidSettings
+bdb7ea7c New Crowdin updates (#748)
+
+====================
+     04-26-2021
+====================
+
+   * frameworks/base
+e14cc4360dd2 base: Notifications background opacity [1/2]
+
+   * packages/apps/crDroidSettings
+a98a7871 Notifications background opacity [2/2]
+
+====================
+     04-25-2021
+====================
+
+   * android
+a5d34a5 Merge 'lineage-18.1' into 11.0
+
+   * device/oneplus/sdm845-common
+fc929511 sdm845-common: sepolicy: Switch away from hal_attribute() macro
+ffad87fa sdm845-common: Include QSSI sepolicy
+b4aff8e4 sdm845-common: lights: Statically link {libbase, libutils}
+a5d7a458 sdm845-common: gpt-utils: Drop unnecessary include
+5ddfcdd9 sdm845-common: Build libhidltransport and libhwbinder
+d3a46380 sdm845-common: Remove libhwbinder/libhidltransport deps
+
+   * external/arm-optimized-routines
+96e25ca Merge branch 'master' of https://github.com/ARM-software/optimized-routines into 11.0
+
+   * packages/apps/Messaging
+4121359 Merge 'lineage-18.1' into 11.0
+
+   * system/netd
+84bd03b3 libnetdbpf: Reduce error logspam
+
+====================
+     04-24-2021
+====================
+
+   * android
+23280b5 manifest: Track our fork of system/media
+25659b4 manifest: Use qssi Android.bp for msm8998
+9345518 Merge pull request #64 from sileshn/11.0
+84b0f01 Fix sync
+3c7ea1e manifest: Track BT packages
+
+   * frameworks/base
+ebf4c190d9a8 Add switch to select SBC HD by default [1/3]
+
+   * packages/apps/Bluetooth
+b6d41be56 Add switch to select SBC HD by default [2/3]
+2d55f087c Check Null-safeness when switching optional-codecs state
+
+   * packages/apps/Messaging
+07ae0bb Messaging: Update cellbroadcast package name
+
+   * packages/apps/Settings
+ffd3c83635 Add switch to select SBC HD by default [3a/3]
+
+   * system/iorap
+dd49762 iorap: Terminate IORap if system_server is down.
+
+   * system/media
+b432f63f Merge tag 'android-11.0.0_r34' staging/lineage-18.1_merge-android-11.0.0_r34
+
+   * vendor/lineage
+1310ce4f vendor: Optimize Pixel charger animation
+71d14553 vendor: Use Pixel charger animation
+
+   * vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
+d4c31d6aa Check Null-safeness when switching optional-codecs state
+
+====================
+     04-23-2021
+====================
+
+   * frameworks/base
+344232edd322 New Crowdin updates (#642)
+
+   * packages/apps/crDroidSettings
+513e5552 New Crowdin updates (#746)
+
+====================
+     04-22-2021
+====================
+
+   * tools/repohooks
+2163340 utils: run: fix crash with failing tools & combined stderr
+
+   * vendor/lineage
+d7fbd44b config: Set UM 4.4 family as QSSI supported platform
+
+====================
+     04-20-2021
+====================
+
+   * WANTED: Somebody to go back in time with me. 
+This is not a joke. P.O. Box 322, Oakview, CA 93022.
+
+   * You'll get paid after we get back. 
+Must bring your own weapons. Safety not guaranteed. I have only done this once before. 

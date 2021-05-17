@@ -1,0 +1,24 @@
+{
+	"response": [
+		{
+			"maintainer": "",
+			"oem": "Motorola",
+			"device": "Moto G(5)S Plus",
+			"filename": "crDroidAndroid-11.0-20201218-sanders-v7.1.zip",
+			"download": "https://sourceforge.net/projects/crdroid/files/sanders/7.x/crDroidAndroid-11.0-20201218-sanders-v7.1.zip/download",
+			"timestamp": 1608316606,
+			"md5": "5e57e41d6e7334a21dd056833a38568c",
+			"size": 779000334,
+			"version": "7.1",
+			"buildtype": "Monthly",
+			"forum": "https://forum.xda-developers.com/t/rom-android-11-crdroid-7-0-for-moto-g-5-s-plus-official.4197803/",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "",
+			"telegram": ""
+		}
+	]
+}

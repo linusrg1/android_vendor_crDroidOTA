@@ -1,0 +1,73 @@
+Highlights & Device Specific Changes:
+Build type: Beta
+Device: Moto G5 Plus (potter)
+Device maintainer: Nick van Bokhorst (GtrCraft)
+
+
+===== 18 April, 2021 =====
+
+- Initial crDroid 7.5 code base
+- Updated to March security patches (android-11.0.0_r34)
+- Added livedisplay
+- Updated Launcher
+- Updated SQLite
+- Added some more apps to PixelPropsUtils
+- Added Notch controls (crDroid Settings - User Interface)
+- Added option to use primary system color for QS tile icon
+- Added OnePlus Sans font
+- Added screenshot quality setting
+- Added long screenshot option
+- Reworked screenshots menu
+- Updated translations
+
+
+===== 15 March, 2021 =====
+
+- Fixed safetynet
+- Tuned ram management
+- Other small optimisations
+
+
+===== 07 March, 2021 =====
+
+- Initial crDroid 7.4 code base
+- Moved charging sound settings to crDroid Settings
+- Added toggle to play a sound when battery fully charged
+- Added toggle to vibrate when fully charged
+- Added Alert Slider SystemUI dialog
+- Added QS tile styles
+- Added deep sleep info in about page
+- Added phone ringtone setting for SIM1 and SIM2
+- Added low quality screen record option
+- Added toggle to show/hide stop dot on screen record
+- Added Sensor block per-package option (crDroidSettings -> Misc)
+- Added OOS style notification clear all button (crDroidSettings -> Quick Settings)
+- Added toast icon to toast notifications
+- Fixed some issue with pulse
+- Fixed an issue with apps that use 0.8 font scale
+- Various other improvements
+- Updated translations
+
+
+===== 09 February, 2021 =====
+
+- Initial crDroid 7.3 code base
+- Updated to February security patches (android-11.0.0_r29)
+- Updated zlib, cpu_features, arm-optimized-routines, giflib, libjpeg-turbo, bionic, art, scudo, vixl, libyuv, libvpx
+- Added option for tint QS Tile with accent color (crDroid Settings -> Quick Settings)
+- Added option to enable AOD on charging only (crDroid Settings -> User interface -> Ambient Display)
+- Added visual voicemail configs from Google Dialer
+- Added option to show pulze (visualizer) on ambient screen (crDroid Settings -> Sound -> Pulse -> Ambient pulse)
+- Added option to show/hide QS footer icons (User account, Edit tiles icon, Running services shortcut, Settings shortcut)
+- Added ambient display edge ligthning options (crDroid Settings -> User interface -> Ambient Display)
+- Added option to suppress notifications sound/vibration if screen is ON (crDroid Settings -> Notifications)
+- Tweaked status bar icons padding
+- Fixed a possible mount issue for Magisk
+- Some more changes here and there
+- Updated translations
+
+
+===== 23 January, 2020 =====
+
+- Initial crDroid 7 support
+- Optimus Drunk kernel is builtin

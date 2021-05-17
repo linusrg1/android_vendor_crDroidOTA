@@ -1,0 +1,24 @@
+{
+        "response": [
+                {
+                        "maintainer": "",
+                        "oem": "Samsung",
+                        "device": "Galaxy Note 9",
+                        "filename": "crDroidAndroid-11.0-20210117-crownlte-v7.2.zip",
+                        "download": "https://sourceforge.net/projects/crdroid/files/crownlte/7.x/crDroidAndroid-11.0-20210117-crownlte-v7.2.zip/download",
+                        "timestamp": 1610886146,
+                        "md5": "9b1011da7d354004bbc617639d73cbef",
+                        "size": 661632848,
+                        "version": "7.2",
+                        "buildtype": "weekly",
+                        "forum": "https://forum.xda-developers.com/t/rom-android-11-crdroid-android-v7-1-for-note-9-official-weekly-exynos.4209687/",
+                        "gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/NikGapps-R/",
+                        "firmware": "https://github.com/corsicanu/9810-bootloaders_and_modems/releases",
+                        "modem": "",
+                        "bootloader": "",
+                        "recovery": "",
+                        "paypal": "https://paypal.me/garett09",
+                        "telegram": "https://t.me/crdroid7s9n9"
+                }
+        ]
+}

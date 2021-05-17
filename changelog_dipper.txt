@@ -1,0 +1,124 @@
+====================
+     05-09-2021
+====================
+
+   * packages/apps/Settings
+3860953 Use our string for restrict_background
+
+   * packages/apps/crDroidSettings
+6091283 Use our string for restrict_background
+
+   * system/netd
+cc9913a bw: Always apply penalty box
+
+====================
+     05-08-2021
+====================
+
+   * android
+471a5fc Merge 'lineage-18.1' into 11.0
+
+   * build/make
+2f7e97d build: enable support for vendor_overlay in makefile
+
+   * build/soong
+7aa5997 Tweak ThinLTO inling heuristics in absense of PGO profile
+
+   * frameworks/av
+fb069d5 mediaplayer: Fix constructor calling sequence
+
+   * frameworks/base
+109836af New Crowdin updates (#653)
+
+   * frameworks/native
+76b697c inputflinger: Enable ThinLTO
+
+   * frameworks/opt/telephony
+9e3ffa6 Reset APN settings after SIM refresh
+
+   * hardware/interfaces
+0053604 Generate unique random mac address per AP interface
+
+   * packages/apps/Launcher3
+a24bb07 Launcher3: set dynamic icon components for Clock and Calendar
+
+   * system/core
+187bdd6 Merge 'lineage-18.1' into 11.0
+
+   * vendor/lineage
+8f70fe9 crdroid: Bump to version 7.6
+
+====================
+     05-07-2021
+====================
+
+   * external/faceunlock
+58090b3 faceunlock: Fix for 32-bit devices
+
+   * lineage-sdk
+b6c3cf4 Battery Fully Charged Sound [3/3]
+
+   * packages/apps/LineageParts
+3591178 Move Swap capacitive buttons to Settings [3/3]
+
+   * packages/apps/Snap
+868d2a3 Snap: api2: close mode switcher on promode events
+
+====================
+     05-06-2021
+====================
+
+====================
+     05-05-2021
+====================
+
+   * device/lineage/sepolicy
+b81fb1f Merge 'lineage-18.1' into 11.0
+
+   * hardware/lineage/interfaces
+2cea98f Initial audio amplifier HAL
+
+   * packages/providers/CalendarProvider
+6a47545 Merge tag 'android-11.0.0_r37' into staging/lineage-18.1_merge-android-11.0.0_r37
+
+   * system/bt
+0e9cb77 Merge tag 'android-11.0.0_r37' into staging/lineage-18.1_merge-android-11.0.0_r37
+
+   * vendor/qcom/opensource/commonsys/system/bt
+545ecf3 smp: Use SMP_TRACE_WARNING
+
+====================
+     05-04-2021
+====================
+
+====================
+     05-03-2021
+====================
+
+   * external/asus/stitchimage
+9bf8a6f Remove Firebase from prebuilt manifest
+
+   * packages/apps/Etar
+9cca67e Enable lights for "Etar" channel notification by default
+
+====================
+     05-02-2021
+====================
+
+   * packages/apps/Jelly
+16e5ac7 Jelly: Add support for viewable content:// scheme
+
+====================
+     05-01-2021
+====================
+
+   * packages/apps/WallpaperPicker2
+276c210 WallpaperPicker2: Fix race condition for fast-loading wallpapers
+
+====================
+     04-30-2021
+====================
+
+   * art
+2d274fc Fix inliner instruction/register limits
+

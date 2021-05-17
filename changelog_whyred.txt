@@ -1,0 +1,153 @@
+Highlights & Device Specific Changes:
+
+
+===== 30-04-2021 =====
+
+Build type: Weekly
+Device: Redmi Note 5 Pro/AI (whyred)
+Device maintainer: Ruturaj Kadam (root2raj)
+
+* crDroid v7.5
+* Android April 2021 Security update
+* Added new system-wide app lock support
+* Added smart pull down options (crdroid > statusbar)
+* Added screen off animations - CRT, Scale (crdroid > UI)
+* Added notch-city customization - normal, immerse, hide (crdroid > UI)
+* Added option to change screenshot quality/size
+* Added toggle to use  primary color for QS tile
+* Added OnePlus sans font
+* Added long screenshot chip
+* Added runtime network permission control per app (by default it will be enabled for all apps)
+* Added OnePlus lockscreen clock
+* Added Fluid lockscreen clock
+* Added Oronos lockscreen clock
+* Added Sneeky and Spectrum lockscreen clocks
+* Various optimizations for performance and power consumption
+* whyred: Update to redfin april fp
+* whyred: Update blobs from jasmine V11.0.22.0.QDIMIXM
+* whyred: Switch to QTI bluetooth stack
+* whyred: Use Pixel offline charging animation
+* whyred: Add MiuiCamera (Nuke Snap) 
+* whyred: Address some selinux denials 
+* whyred: Don't use all-caps text for buttons
+* whyred: Add proper support for 5GHz hotspot
+* whyred: Limit screen recorder's framerate to 60fps
+* whyred: Kernel compiled with clang 12.0.5
+* whyred: Kernel Upstreamed with tag 4.4.267
+
+===== 20-03-2021 =====
+
+Build type: Weekly
+Device: Redmi Note 5 Pro/AI (whyred)
+Device maintainer: Ruturaj Kadam (root2raj)
+
+* crDroid v7.4
+* March 2021 security patch
+* Added new Switch styles (crdroid > UI)
+* Added new charging sound / vibration when full (crdroid > sound)
+* Added customization for dashboard icons (crdroid > UI)
+* Added Pixel navbar and animation toggle (crdroid > navbar > stock navbar)
+* Added blur option toggle switch (Settings > Display > Enable blurs)
+* Added whole new face unlock implementation (works at more places now!)
+* Added QS header data usage info (crdroid > QS)
+* Added option to record screen with low quality
+* Added QS tile styles (crdroid > UI)
+* Added ability to set different ringtone for multi-sim
+* Added deep sleep percentage in system info
+* Added toggle for ambient music ticker (show pulse on track change)
+* Added settings to configure back gesture height
+* Added in-call vibration customization (crdroid > notifications)
+* Added toggle to tint QS tiles (crdroid > QS)
+* Added Always-on display when charging toggle
+* Added Ambient display pulse visualizer
+* Added QS footer icon visibility toggles
+* Added edge lighting for ambient pulse notification toggle
+* Added toggle to suppress notification sound when screen on
+* Added material dismiss button for notifications (crdroid > QS)
+* Added per package sensor block customization (crdroid > misc)
+* Miscellaneous launcher updates
+* Various mainstream optimizations and fixes
+* whyred: Update to redfin march fp
+* whyred: SELinux Enforcing
+* whyred: Update blobs from jasmine V11.0.21.0.QDIMIXM
+* whyred: Add Snap Camera (Nuked MiuiCamera)
+* whyred: Reduce screenshot delay to 0
+* whyred: Kernel Upstreamed with tag 4.4.261
+
+===== 20-01-2021 =====
+
+Build type: Weekly
+Device: Redmi Note 5 Pro/AI (whyred)
+Device maintainer: Ruturaj Kadam (root2raj)
+
+* crDroid v7.2
+* January 2021 security patch
+* Added Pulse visualizer customizations for lockscreen and navbar
+* Added QS status bar opacity customizations
+* Added Safety Net patches to framework (SN should pass without Magisk)
+* Improve app launch/exit speed
+* Added Battery temperature in Settings
+* Added Battery stats reset option in Settings
+* Fixes for old style mobile indicator
+* Added crDroid Ambient Display tuning (crdroid > UI)
+* Revamped launcher with many customizations and fixes
+* Re-enabled iorapd / perfetto for faster app launch
+* Added option to customize size of gesture navbar
+* Added toggle for using old style mobile indicators
+* Fixed battery estimate not showing in quick status bar
+* Fixes and improvements for crDroid Home
+* whyred: Switch to redfin january fp
+* whyred: Update Time services from LA.UM.9.6.2.r1-02500-89xx.0
+* whyred: Kernel Upstreamed with tag 4.4.249
+
+===== 22-12-2020 =====
+
+Build type: Weekly
+Device: Redmi Note 5 Pro/AI (whyred)
+Device maintainer: Ruturaj Kadam (root2raj)
+
+* crDroid v7.1
+* December 2020 security patch
+* Added lockscreen clock styles
+* Added Compass tile, Sound tile, Reboot tile
+* Added boring headsup toggle
+* Added battery / notification light settings
+* Added pocket detection toggle
+* Added toast icon toggle
+* Added navbar styles
+* Added Smart Pixels customization
+* Added per app data restriction / network isolation settings
+* Fixed crash on certain apps like YouTube
+* Various under the hood optimizations
+* whyred: Switched to redfin december fp
+* whyred: Fixed deep sleep
+* whyred: Added aptx blobs from redfin-user-11-RD1A.201105.003.A1-6886512-release-keys
+* whyred: Build QTI thermal HAL 2.0
+* whyred: Use MIUI offline charging animation
+* whyred: Enabled wifi QPower and Deep sleep at the same time
+* whyred: Kernel Upstreamed with tag 4.4.248
+
+===== 26-11-2020 =====
+
+Build type: Weekly
+Device: Redmi Note 5 Pro/AI (whyred)
+Device maintainer: Ruturaj Kadam (root2raj)
+
+* Added Gaming mode customizations 
+* Added Smart charging customizations
+* Added CPU info toggle/tile
+* Added FPS info tile
+* Added toggle for 3 fingers swipe to screenshot
+* Added edge long swipe customization (crDroid > stock navbar settings) 
+* Various misc fixes and optimizations
+* whyred: Kernel Upstreamed with tag 4.4.246
+
+===== 19-11-2020 =====
+
+Build type: Beta
+Device: Redmi Note 5 Pro/AI (whyred)
+Device maintainer: Ruturaj Kadam (root2raj)
+
+* Initial R build
+* November Security Patch
+* whyred: Extended Kernel prebuilt

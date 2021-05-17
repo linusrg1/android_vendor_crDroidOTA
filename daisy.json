@@ -1,0 +1,24 @@
+{
+	"response": [
+		{
+			"maintainer": "opal06",
+			"oem": "Xiaomi",
+			"device": "Xiaomi Mi A2 Lite",
+			"filename": "crDroidAndroid-11.0-20210419-daisy-v7.5.zip",
+			"download": "https://sourceforge.net/projects/crdroid/files/daisy/7.x/crDroidAndroid-11.0-20210419-daisy-v7.5.zip/download",
+			"timestamp": 1618857450,
+			"md5": "5db559b1387a3be63289c6917b010a60",
+			"size": 757015685,
+			"version": "7.5",
+			"buildtype": "Monthly",
+			"forum": "https://forum.xda-developers.com/t/android11-microg-crdroid-7.4239379",
+			"gapps": "",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "https://github.com/LinkBoi00/twrp_device_xiaomi_daisy/releases",
+			"paypal": "https://www.paypal.com/paypalme/opal06",
+			"telegram": "https://t.me/crdroid_daisy"
+		}
+	]
+}

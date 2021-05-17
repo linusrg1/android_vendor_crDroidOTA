@@ -1,0 +1,24 @@
+{
+	"response": [
+		{
+			"maintainer": "Nick van Bokhorst (GtrCraft)",
+			"oem": "Xiaomi",
+			"device": "POCO M3 & Redmi 9T",
+			"filename": "crDroidAndroid-11.0-20210509-juice-v7.6.zip",
+			"download": "https://sourceforge.net/projects/crdroid/files/juice/7.x/crDroidAndroid-11.0-20210509-juice-v7.6.zip/download",
+			"timestamp": 1620581999,
+			"md5": "aede1a3488180e778889b33793741dd2",
+			"size": 726702220,
+			"version": "7.6",
+			"buildtype": "Weekly",
+			"forum": "https://forum.xda-developers.com/t/rom-android-11-juice-poco-m3-redmi-9t-redmi-9-power-redmi-note-9-4g-crdroid-v7-5-official-17-04-2021.4263541/",
+			"gapps": "https://forum.xda-developers.com/t/gapps-arm64-flamegapps-for-android-9-0-10-0-11-0.4020917/",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "https://paypal.me/NvanBokhorst",
+			"telegram": "https://t.me/crdroidjuice"
+		}
+	]
+}
